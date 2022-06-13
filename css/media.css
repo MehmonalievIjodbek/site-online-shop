@@ -1,0 +1,329 @@
+/* 1024px - 1200px */
+@media screen and (max-width: 1200px) {
+    .menu__flex {
+        padding: 0 10px;
+    }
+    .header__flex {
+        padding: 0 10px;
+    }
+    .shop__blocks {
+        padding: 0 10px;
+    }
+    .animal__text {
+        padding: 0 10px;
+    }
+    .animal__blocks {
+        padding: 0px 10px 135px 10px;
+    }
+    .maps__iframe {
+        justify-content: center;
+    }
+    iframe {
+        width: 1000px;
+        text-align: center;
+    }
+    .free__blocks {
+        padding: 0 10px;
+    }
+    .insta__block {
+        padding: 0 10px;
+    }
+    .footer__nav {
+        padding: 0 10px;
+    }
+    .footer__last {
+        padding: 0 10px;
+    }
+}
+/* 1024px - 1140px */
+@media screen and (max-width: 1140px) {
+    .shop__blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .animal__blocks {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    .blocks .block {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .insta__block {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+/* 768px - 1024px */
+@media screen and (max-width: 1024px) {
+    .free__blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .free__right {
+        margin-bottom: 20px;
+        order: -1;
+    }
+    .blocks .block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #close {
+        width: 12%;
+    }
+}
+
+/* 580px - 768px */
+@media screen and (max-width: 768px) {
+    .header__flex {
+        padding: 0 10px;
+    }
+    .animal__block {
+        width: 100%;
+    }
+
+    .blocks .block {
+        gap: 30px;
+        justify-content: center;
+    }
+    .blocks .block__right {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .blocks .block__right button {
+        margin: 10px 0;
+    }
+    .footer__nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .footer__last {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #close {
+        width: 12%;
+    }
+   
+   
+}
+/* 580px -620px */
+@media screen and (max-width: 601px) {
+    .header__left ul {
+        display: none;
+    }
+    .header__right {
+        display: none;
+    }
+    .fa-bars {
+        display: block !important;
+    }
+    .basr {
+        display: block !important;
+        color: black;
+      }
+      #close {
+        width: 15%;
+    }
+    #modal img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* 480px - 580px */
+@media screen and (max-width: 580px) {
+    .menu {
+        display: none;
+    }
+    .header {
+        padding: 10px 0;
+    }
+    .header__left ul {
+        display: none;
+    }
+    .fa-bars {
+        display: block !important;
+    }
+    .header__right {
+        display: none;
+    }
+    .header__flex {
+        padding: 0 10px;
+    }
+    .main__blocks {
+        padding: 0 10px;
+    }
+    .main__block h2 {
+        font-size: 35px;
+    }
+    .animal__block {
+        max-width: 400px;
+    }
+    .animal__block p {
+        font-size: 24px;
+    }
+    .animal__block button {
+        font-size: 14px;
+    }
+    .free__left {
+        padding: 0 10px;
+    }
+    .free__right img {
+        object-fit: cover;
+        padding: 0 10px;
+    }
+    .basr {
+        display: block !important;
+        color: black;
+      }
+      #close {
+        width: 15%;
+    }
+}
+
+/* 445px - 480px */
+@media screen and (max-width: 480px) {
+    .menu {
+        display: none;
+    }
+    .header__flex {
+        padding: 0 10px;
+    }
+    .main__block h2 {
+        font-size: 30px;
+    }
+
+    .free__left {
+        padding: 0 10px;
+    }
+    .free__right img {
+        padding: 0 10px;
+    }
+    #close {
+        width: 25%;
+    }
+    #modal img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* 375px - 445px */
+@media screen and (max-width: 445px) {
+    .main__block h2 {
+        font-size: 25px;
+    }
+    .main__block button {
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+    .shop__transfer {
+        display: none;
+    }
+    .shop__block:first-child {
+        justify-content: center;
+    }
+    .animal__block p {
+        font-size: 18px;
+    }
+    .animal__block button {
+        font-size: 10px;
+    }
+    .animal__blocks {
+        padding: 0px 10px 70px 10px;
+    }
+    .shop {
+        padding: 80px 0px 80px 0px;
+    }
+    .maps {
+        padding: 0px 0px 50px 0px;
+    }
+    .free__h2 h2 {
+        margin: 18px 0px 50px 0px;
+    }
+    .blocks .block__right input {
+        max-width: 300px;
+        font-size: 16px;
+    }
+    .blocks .block__right button {
+        padding: 2px 20px;
+    }
+    .blocks .block__left p {
+        font-size: 14px;
+    }
+    .blocks .block__left p a {
+        font-size: 14px;
+    }
+}
+
+/* 320px - 375px */
+@media screen and (max-width: 375px) {
+    .shop {
+        padding: 80px 0px 80px 0px;
+    }
+    .main__block p {
+        font-size: 10px;
+    }
+    .main__block h2 {
+        font-size: 18px;
+    }
+    .shop__in button {
+        font-size: 12px;
+        padding: 2px 12px;
+    }
+    .free__h2 h2 {
+        font-size: 24px;
+    }
+    .animal__blocks {
+        padding: 0px 10px 70px 10px;
+    }
+    .maps {
+        padding: 0px 0px 50px 0px;
+    }
+    .free__h2 h2 {
+        margin: 18px 0px 50px 0px;
+    }
+    .free {
+        padding: 0px 0px 80px 0px;
+    }
+    .blocks {
+        margin: 0px 0px 80px 0px;
+    }
+    .insta__block img {
+        width: 100%;
+        height: 100%;
+    } 
+    #modal img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* 0px - 320px */
+@media screen and (max-width: 320px) {
+    .animal__text {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .shop {
+        padding: 60px 0px 120px 0px;
+    }
+    .maps {
+        padding: 0px 0px 50px 0px;
+    }
+    .animal__blocks {
+        padding: 0px 10px 70px 10px;
+    }
+    .free__left h2 {
+        font-size: 29px;
+    }
+}
